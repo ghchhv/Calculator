@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: ;
+
+}
+.mainBody{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    border-radius: 6px;
+    justify-content: center;
+    width: 20%;
+    height: 60vh;
+    padding: 2.5%;
+    background-color: #adb1b5;
+}
+.textArea{
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    width: 100%;
+    height: 20%;
+}
+.textArea #txt{
+    padding: 6px;
+    /* margin: 6%; */
+    width: 100%;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    text-align: right;
+}
+.btnArea{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 80%;
+    border: 0.2px;
+}
+.btn{
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: larger;
+    width: 25%;
+    height: 18%;
+    background-color : #157FCC;
+    
+}
+
+#one{
+    order: 0;
+}
+#two{
+    order: 0;
+}
+#three{
+    order: 0;
+}
+#sum{
+    order: 0;
+    background-color: #f47c20;
+
+}
+#four{
+    order: 1;
+}
+#five{
+    order: 1;
+}
+#six{
+    order: 1;
+}
+#diff{
+    order: 1;background-color: #f47c20;
+}
+#seven{
+    order: 2;
+}
+#eight{
+    order: 2;
+}
+#nine{
+    order: 2;
+}
+#mult{
+    order: 2;background-color: #f47c20;
+}
+#period{
+    order: 3;
+    background-color: #f47c20;
+    font-weight: bold;
+}
+
+#equals{
+    order: 4;background-color: #f47c20;
+}
+#zero{
+    order: 4;
+}
+#division{
+    order: 5;background-color: #f47c20;
+}
+
+#clear{
+    order: -2;
+    width: 50%;
+    margin: 6% 0%  0%;
+    background: #d81b21;
+}
+#back{
+    order: -1;
+    width: 50%;
+    margin: 6% 0%  0%;
+    background: #d81b21;
+}
