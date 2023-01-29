@@ -7,7 +7,7 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: ;
+    background-color: #d6cd84;
 
 }
 .mainBody{
@@ -35,7 +35,8 @@ body{
     font-size: 20px;
     border: 2px solid black;
     border-radius: 4px;
-    text-align: right;
+    /* text-align: right; */
+    
 }
 .btnArea{
     display: flex;
